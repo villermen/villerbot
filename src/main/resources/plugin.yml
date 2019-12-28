@@ -1,0 +1,3 @@
+name: Villerbot
+main: com.villermen.villerbot.VillerbotPlugin
+version: '0.1'
