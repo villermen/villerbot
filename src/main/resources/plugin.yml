@@ -1,3 +1,13 @@
 name: Villerbot
+author: Villermen
+version: "0.1"
+api-version: "1.15"
+depend:
+    - Vault
 main: com.villermen.villerbot.VillerbotPlugin
-version: '0.1'
+commands:
+    title:
+        description: Change your [Title].
+        usage: /<command> <ExampleTitle|clear>
+        permission: villerbot.title
+        permission-message: §4You don't have permission to change your title.
